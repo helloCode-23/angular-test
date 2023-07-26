@@ -1,9 +1,5 @@
 $height: 80px;
 
-.a-title {
-  background-color: red;
-}
-
 .fix {
   background-color: white;
 }
@@ -11,7 +7,7 @@ $height: 80px;
 #square {
   width: 100px;
   height: 100px;
-  background: red;
+  background: rgb(197, 7, 7);
 }
 
 table {
@@ -33,4 +29,18 @@ h2 {
 
 .div2 {
   background-color: white;
+}
+
+.pacman {
+  margin-top: 30px;
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid rgb(47, 0, 255);
+  border-left: 60px solid rgb(89, 0, 255);
+  border-bottom: 60px solid rgb(47, 0, 255);
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
