@@ -13,6 +13,12 @@ import { bootstrapApplication } from '@angular/platform-browser';
 export class App {
   name = 'Angular';
   index = ['1', '2', '3', '4', '5'];
+
+  isChange = false;
+
+  updateStatus() {
+    this.isChange = !this.isChange;
+  }
 }
 
 bootstrapApplication(App);

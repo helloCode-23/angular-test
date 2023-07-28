@@ -1,11 +1,25 @@
 <div class="div1">
   <h1>Welcome {{name}} !</h1>
   <h2>1. ) How to change the shape by css, such as color</h2>
+  <!------pay attention : h2 - 1------>
   <div #shape id="square"></div>
   <div class="pacman"></div>
+  <br />
+  <input
+    type="checkbox"
+    id="scales"
+    name="scales"
+    [checked]="isChange"
+    (change)="updateStatus()"
+  />
+  show some tips
+  <li [hidden]="isChange===false">
+    If "tips" is enabled, how to add background-color to PicMan?
+  </li>
 </div>
 <div class="div2">
   <h2 class="fix">2.) Show table information</h2>
+  <!------pay attention : h2 - 2------>
   <table>
     <tr>
       <th>index</th>
